@@ -1,0 +1,36 @@
+.skill-card {
+    display: flex;
+    align-items: center;
+    background-color: var(--container-color); /* Darker shade for card background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.87); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6); /* Slightly stronger shadow on hover */
+}
+
+.skill-card__icon {
+    font-size: 24px;
+    color: rgba(19, 19, 19, 0.87); /* Match the light text color */
+    margin-right: 15px;
+}
+
+.skill-card__info {
+    text-align: left;
+}
+
+.skill-card__name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: rgba(5, 5, 5, 0.87); /* Primary text color */
+}
+
+.skill-card__level {
+    font-size: 14px;
+    color: rgba(2, 2, 2, 0.6); /* Muted text color for level */
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "uil uil-graduation-cap",
+        "title": "Education",
+        "subtitle": "Bachelor of Computer Science"
+    },
+    {
+        "icon": "uil uil-briefcase-alt",
+        "title": "Experience",
+        "subtitle": "November 24-Present"
+    },
+    {
+        "icon": "uil uil-lightbulb-alt",
+        "title": "Projects",
+        "subtitle": "2 Completed"
+    }
+]

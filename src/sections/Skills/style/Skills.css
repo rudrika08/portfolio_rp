@@ -1,0 +1,71 @@
+.skills {
+    padding: 2rem 0;
+}
+
+.section__title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(15, 14, 14, 0.87); /* Light text color for the title */
+}
+
+.section__subtitle {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(9, 9, 9, 0.6); /* Muted color for the subtitle */
+}
+
+.skills__container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    /* grid-template-columns: repeat(t, minmax(250px, 1fr)); */
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--container-color); Matches the overall dark background */
+    padding: 1rem;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); */
+    width: 70%;
+}
+
+
+.skills__group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Space between cards in each group */
+}
+
+.skills__card {
+    display: flex;
+    align-items: center;
+    background-color: #090909; /* Darker shade for card background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6); /* Slightly stronger shadow on hover */
+}
+
+.skills__icon {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.87); /* Match the light text color */
+    margin-right: 15px;
+}
+
+.skills__info {
+    text-align: left;
+}
+
+.skills__name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: rgba(9, 8, 8, 0.87); /* Primary text color */
+}

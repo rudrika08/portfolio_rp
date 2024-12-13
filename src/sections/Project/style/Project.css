@@ -1,0 +1,67 @@
+.project__container {
+    display: flex;
+    justify-content: center; /* Center the project cards */
+    flex-wrap: wrap;         /* Allow wrapping on smaller screens */
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+
+.project__button {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    color: #0d0101;
+    background-color: var(--primary-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+}
+
+.project__button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    .project__container {
+        gap: 1.5rem; /* Reduce gap between cards */
+        padding: 1rem;
+    }
+
+    .project__card {
+        max-width: 350px; /* Slightly smaller cards for medium screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project__container {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center;    /* Center-align cards */
+        gap: 1.5rem;
+    }
+
+    .project__card {
+        padding: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .project__card {
+        padding: 1rem;
+    }
+
+    .project__title {
+        font-size: var(--small-font-size);
+    }
+
+    .project__description {
+        font-size: var(--tiny-font-size);
+    }
+
+    .project__button {
+        font-size: var(--tiny-font-size);
+        padding: 0.5rem 1rem;
+    }
+}

@@ -1,0 +1,10 @@
+[
+    [
+        { "name": "HTML", "level": "Advanced", "icon": "bx bx-badge-check" },
+        { "name": "CSS", "level": "Advanced", "icon": "bx bx-badge-check" }
+    ],
+    [
+        { "name": "JavaScript", "level": "Advanced", "icon": "bx bx-badge-check" },
+        { "name": "React", "level": "Intermediate", "icon": "bx bx-badge-check" }
+    ]
+]
