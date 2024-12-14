@@ -4,7 +4,7 @@ import AboutImag from "../../assets/about.jpg";
 import Information from "../../components/AboutCard/AboutCard";
 const About = () => {
     return (
-    <section className="about section" id="about">
+    <section className="about_section" id="about">
     <h2 className="about__container grid">About Me</h2>
     <span className="section"__subtitle></span>
     <div className="about__container container">

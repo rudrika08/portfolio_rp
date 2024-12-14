@@ -2,7 +2,7 @@ import React from 'react';
 import './style/Hero.css';
 import Social from '../../components/Social/Social.jsx';
 import HeroData from '../../components/HeroData/HeroData.jsx';
-import ScrollDown from '../../layout/ScrollDown/ScrollDown.jsx';
+// import ScrollDown from '../../layout/ScrollDown/ScrollDown.jsx';
 const Home = () => {
     return (
         <section className="home section" id="home">
@@ -23,7 +23,7 @@ const Home = () => {
       
       
         </div>
-        <ScrollDown/>
+        {/* <ScrollDown/> */}
         </section>
     );
 };

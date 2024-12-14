@@ -22,7 +22,13 @@
       
   }
   
+.hero_mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 
+}
 }
 .home__social{
     display: grid;
@@ -170,6 +176,7 @@
         display: none;
     }
   }
+  
   
   @media screen and (max-width: 576px) {
     .home__content{
