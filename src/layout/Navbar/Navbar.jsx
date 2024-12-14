@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './style/Navbar.css';
+import Bar from '../../assets/menu-bars-icon-7.jpg';
 
 const Navbar = () => {
     const [Toggle, showMenu] = useState(false);
@@ -28,17 +29,17 @@ const Navbar = () => {
                         </li>
                         <li className="nav__item">
                             <a href="#experience" className="nav__link">
-                                <i className="uil uil- nav__icon"></i>Experience
+                                <i className="uil uil-briefcase nav__icon"></i>Experience
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#projects" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i>Projects
+                                <i className="uil uil-scenary nav__icon"></i>Projects
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#skills" className="nav__link">
-                                <i className="uil uil-scenary nav__icon"></i>Skills
+                                <i className="uil uil-file nav__icon"></i>Skills
                             </a>
                         </li>
                         <li className="nav__item">
@@ -49,11 +50,11 @@ const Navbar = () => {
                     </ul>
                     <i 
                         className="uil uil-times nav__close" 
-                        onClick={() => showMenu(!Toggle)}>
-                    </i>
+                        onClick={() => showMenu(!Toggle)}
+                    ></i>
                 </div>
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-                    <i className="uil uil-apps"></i>
+                    <img src={Bar} alt="Bar" />
                 </div>
             </nav>
         </header>

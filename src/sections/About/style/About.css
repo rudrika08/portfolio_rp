@@ -2,18 +2,21 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 6rem;
     align-items: center;
-    display: flex;
+    display: flex;;
     justify-content: center;
     margin: 0 10rem ;
 
 }
 .about__img{
-    width: 350px;
     border-radius: 1.5rem;
     /* justify-content: center;
     display: flex; */
     justify-self: center;
+
 }
+/* .about__img img{
+    width: 2500px;
+} */
 .about__info{
     display: grid;
     grid-template-columns: repeat(3, 140px);
