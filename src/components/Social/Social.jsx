@@ -1,10 +1,11 @@
 import React from "react";
 import { UilLinkedin, UilGithub, UilInstagram } from '@iconscout/react-unicons';
 import '../../sections/Hero/style/Hero.css';
+import './style/Social.css';
 
 const Social = () => {
     return (
-        <div className="home__social" style={{marginLeft: "3rem"}}>
+        <div className="home__social">
             <a
                 href="https://www.linkedin.com/in/rudrika-panigrahi-6085b5268/"
                 className="home__social-icon"

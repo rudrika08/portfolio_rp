@@ -13,5 +13,10 @@
         "icon": "uil uil-lightbulb-alt",
         "title": "Projects",
         "subtitle": "2 Completed"
+    },
+    {
+        "icon": "uil uil-users-alt",
+        "title": "Certifications",
+        "subtitle": "2+ Certificates"
     }
 ]

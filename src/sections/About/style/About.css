@@ -1,36 +1,42 @@
 .about__container{
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
     column-gap: 6rem;
     align-items: center;
-    display: flex;
+    display: flex;;
     justify-content: center;
-    margin: 0 10rem ;
+    margin: 0 5rem ;
 
 }
+
 .about__img{
-    width: 350px;
     border-radius: 1.5rem;
     /* justify-content: center;
     display: flex; */
     justify-self: center;
+   
+
 }
+/* .about__img img{
+    width: 2500px;
+} */
 .about__info{
-    display: grid;
-    grid-template-columns: repeat(3, 140px);
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(4, 240px); */
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
-    /* align-items: center;
+    align-items: center;
     display: flex;
-    justify-content: center; */
+    /* justify-content: center; */
      margin-top: var(--mb-2); 
 }
-.about__box{
+/* .about__box{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
-}
+} */
 .about__icon{
     font-size: 1.5rem;
     color: var(--title-color);
@@ -39,6 +45,7 @@
 .about__title{
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+
 }
 .about__subtitle{
     font-size: var(--tiny-font-size);
@@ -53,7 +60,7 @@
 @media screen and (max-width: 992px) {
    
     .about__container{
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
         row-gap: 2.5rem;
     }
     .about__img{
@@ -68,10 +75,10 @@
     .about__info{
         justify-content: center;
     }
-    .about__description{
+    /* .about__description{
         padding: 0 5rem;
         margin-bottom: 2rem;
-    }
+    } */
     
   }
   /* For medium devices */
@@ -81,9 +88,9 @@
         grid-template-columns: repeat(3, 1fr);
     
     }
-    .about__description{
+    /* .about__description{
         padding: 0 5rem;
-    }
+    } */
     .section__subtitle{
         margin-bottom: var(--mb-1-5);
     }
@@ -98,5 +105,16 @@
     
     }
     
+  }
+  @media screen and (max-width: 576px) {
+    .about__container{
+        flex-direction: column;
+  }
+  .about__description{
+    padding: 0%;
+}
+.about__img{
+    margin-top: 20px;
+}
   }
   
