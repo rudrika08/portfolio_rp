@@ -18,17 +18,16 @@ This portfolio is designed to reflect my journey as a second-year B.Tech student
 ## Features
 
 - **Responsive Design:** Ensures seamless viewing across devices.
-- **Project Showcase:** Highlights my key projects, including 'EzzCook' and 'DocTalk.'
+- **Project Showcase:** Highlights my key projects, including 'EzzCook' and 'Sahayak_AI'
 - **About Me Section:** Offers insights into my academic and professional background.
 - **Interactive Contact Form:** Allows visitors to connect with me easily.
 - **Clean and Minimal UI:** Provides a professional and user-friendly experience.
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS, and Bootstrap
-- **Backend (optional):** Node.js (if applicable)
+- **Frontend:** HTML, CSS, JavaScript, ReactJS
 - **Version Control:** Git and GitHub
-- **Design:** Figma/Canva (for designing elements, if used)
+- **Design:** Figma/Canva 
 
 ## Setup and Installation
 
