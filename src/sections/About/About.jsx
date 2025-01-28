@@ -20,7 +20,7 @@ const About = () => {
                 responsive and interactive interfaces that deliver exceptional
                 user experiences.
             </p>
-            <a download="" href="https://drive.google.com/file/d/1do9ySjCxc0s88SiYW1O9lor9-BrBeUR8/view?usp=sharing" className="button button--flex" target="_blank">Download CV
+            <a download="" href="https://drive.google.com/file/d/1TiFV3zm6lT1vEtkF7tRWJDf14ANjsQxu/view?usp=sharing" className="button button--flex" target="_blank">Download CV
             <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
