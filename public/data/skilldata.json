@@ -1,10 +1,23 @@
 [
     [
-        { "name": "HTML", "level": "Advanced", "icon": "bx bx-badge-check" },
-        { "name": "CSS", "level": "Advanced", "icon": "bx bx-badge-check" }
+      { "name": "HTML", "level": "Advanced", "icon": "html" },
+      { "name": "CSS", "level": "Advanced", "icon": "css" }
     ],
     [
-        { "name": "JavaScript", "level": "Advanced", "icon": "bx bx-badge-check" },
-        { "name": "React", "level": "Intermediate", "icon": "bx bx-badge-check" }
+      { "name": "JavaScript", "level": "Advanced", "icon": "js" },
+      { "name": "React", "level": "Intermediate", "icon": "react" }
+    ],
+    [
+      { "name": "MongoDB", "level": "Intermediate", "icon": "mongodb" },
+      { "name": "MySQL", "level": "Intermediate", "icon": "mysql" }
+    ],
+    [
+      { "name": "Git", "level": "Advanced", "icon": "git" },
+      { "name": "GitHub", "level": "Advanced", "icon": "github" }
+    ],
+    [
+      { "name": "DBMS", "level": "Intermediate", "icon": "dbms" },
+      { "name": "OOPS", "level": "Advanced", "icon": "oops" }
     ]
-]
+  ]
+  
